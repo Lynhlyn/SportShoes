@@ -13,11 +13,11 @@ const handleLogout = () => {
 </script>
 
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm navbar-custom">
         <div class="container">
             <!-- Logo -->
             <RouterLink class="navbar-brand" to="/">
-                <img src="@/assets/logo/logo2.png" alt="Logo" height="50" />
+                <img src="@/assets/logo/logo.png" alt="Logo" height="70" />
             </RouterLink>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
@@ -94,15 +94,15 @@ const handleLogout = () => {
 
 <style scoped>
 /* Navbar */
-.navbar {
-    background-color: white;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
-    padding: 12px 20px;
+.navbar-custom {
+  background-color: #f8dee0 !important; /* Màu hồng nhạt */
+  border-radius: 15px; /* Bo góc */
+  padding: 5px;
 }
 
 /* Menu Item */
 .navbar-nav .nav-link {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 500;
     transition: color 0.3s;
 }
@@ -137,7 +137,7 @@ const handleLogout = () => {
 /* Tài khoản */
 .account-btn {
     font-size: 20px;
-    padding: 6px 10px;
+    padding: 6px 8px;
     border-radius: 50%;
     transition: background 0.3s;
 }
