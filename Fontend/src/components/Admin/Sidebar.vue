@@ -62,15 +62,15 @@ const isActive = (path) => route.path.startsWith(path);
                     <RouterLink to="/admin/products/manage" class="menu-item" :class="{ active: isActive('/admin/products/manage') }">
                         <i class="bi bi-grid me-2"></i> Quản lý sản phẩm
                     </RouterLink>
-                    <RouterLink to="/admin/products/attributes" class="menu-item" :class="{ active: isActive('/admin/products/attributes') }">
+                    <!-- <RouterLink to="/admin/products/attributes" class="menu-item" :class="{ active: isActive('/admin/products/attributes') }">
                         <i class="bi bi-list-check me-2"></i> Thuộc tính sản phẩm
-                    </RouterLink>
+                    </RouterLink> -->
                     <RouterLink to="/admin/products/details" class="menu-item" :class="{ active: isActive('/admin/products/details') }">
                         <i class="bi bi-list-task me-2"></i> Sản phẩm chi tiết
                     </RouterLink>
-                    <RouterLink to="/admin/products/promotions" class="menu-item" :class="{ active: isActive('/admin/products/promotions') }">
+                    <!-- <RouterLink to="/admin/products/promotions" class="menu-item" :class="{ active: isActive('/admin/products/promotions') }">
                         <i class="bi bi-gift me-2"></i> Khuyến mại
-                    </RouterLink>
+                    </RouterLink> -->
                 </div>
             </div>
 
